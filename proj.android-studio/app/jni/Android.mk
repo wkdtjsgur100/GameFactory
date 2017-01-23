@@ -12,8 +12,16 @@ LOCAL_MODULE := MyGame_shared
 LOCAL_MODULE_FILENAME := libMyGame
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
+                   ../../../Classes/Skill.cpp \
+                   ../../../Classes/Character.cpp \
+                   ../../../Classes/ItemPool.cpp \
+                   ../../../Classes/Item.cpp \
+                   ../../../Classes/GoldManager.cpp \
+                   ../../../Classes/ItemManager.cpp \
+                   ../../../Classes/InterfaceLayer.cpp \
+                   ../../../Classes/PlayerGold.cpp \
                    ../../../Classes/AppDelegate.cpp \
-                   ../../../Classes/HelloWorldScene.cpp
+                   ../../../Classes/HelloWorldScene.cpp \
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
 
